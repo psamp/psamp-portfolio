@@ -27,11 +27,14 @@ module.exports = {
             }, {
                 test: /\.scss$/,
                 loaders: ['style', 'css', 'sass']
+            }, {
+                test: /\.json$/,
+                loaders: ['json']
             }
         ]
     },
     resolve: {
-        extensions: ['', '.js', '.jsx']
+        extensions: ['', '.json', '.js', '.jsx']
     },
     plugins: [HtmlWebpackPluginConfig]
 };

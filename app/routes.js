@@ -1,11 +1,12 @@
 import React from 'react';
 import { Router, Route, IndexRoute, hashHistory } from 'react-router';
-import Main from './components/Main';
+import App from './components/App';
+import Home from './components/Home';
 
 export default (
   <Router history={hashHistory}>
-    <Route path='/'>
-      <IndexRoute component={Main} />
+    <Route path='/' component={App}>
+      <IndexRoute component={Home} />
     </Route>
   </Router>
 );

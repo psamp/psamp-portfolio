@@ -23,18 +23,18 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loaders: ['babel']
+                loader: 'babel'
             }, {
                 test: /\.css$/,
                 loaders: ['style', 'css']
             }, {
-                test: /\.scss$/,
-                loaders: ['style', 'css', 'sass']
+                test: /\.json$/,
+                loaders: ['json']
             }
         ]
     },
     resolve: {
-        extensions: ['', '.js', '.jsx']
+        extensions: ['', '.json', '.js', '.jsx']
     },
     plugins: [new webpack.HotModuleReplacementPlugin(), HtmlWebpackPluginConfig]
 };
