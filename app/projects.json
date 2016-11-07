@@ -1,0 +1,70 @@
+[{
+    "name": "Timelines",
+    "type": "mobile",
+    "github": "https://github.com/Synsthetics/iOS-Timelines-App",
+    "desc": "Timelines helps busy people find free time to spend with their loved ones. Input your schedule, add someone as a friend, and then merge your schedule with theirs to find shared free time.
+
+        A good 70 % of this was pair - programmed with two other iOS Devs.We handled timezones by talking to the server in GMT and ISO,
+    and only converted to local time upon presentation to the user.
+    ",
+    "tools": [
+        "Swift",
+        "Foundation",
+        "Font Awesome"
+        "Interface Builder",
+        "XCTest"
+    ]
+}, {
+    "name": "Leet",
+    "type": "web",
+    "link": "https://leet.firebaseapp.com/",
+    "github": "https://github.com/Leet/FE",
+    "desc": "Let gives business travelers awareness of those with overlapping layovers so they can make networking connections. Collaborated with Ruby on Rails engineers with previous experience as a pilot and Delta contractor.",
+    "tools": [
+        "Angular",
+        "Angular Material",
+        "HTML",
+        "Sass",
+        "Bourbon + Neat"
+        "Underscore.js",
+    ]
+}, {
+    "name": "What Color Is It?",
+    "type": "web",
+    "link": "http://psamp.github.io/Hexadecimal-Color-Clock_Normal/",
+    "github": "https://github.com/psamp/Hexadecimal-Color-Clock_Normal",
+    "desc": "Clock that converts the time of day into a color.",
+    "notes": "Collaborated with Ruby on Rails engineers with previous experience as a pilot and Delta contractor.",
+    "tools": [
+        "Angular",
+        "Angular Material",
+        "HTML",
+        "Sass",
+        "Bourbon + Neat"
+        "Underscore.js",
+    ]
+}, {
+    "name": "Etsy Clone",
+    "type": "web",
+    "link": "http://psamp.github.io/EtsySearch_Notebooks/",
+    "github": "https://github.com/psamp/EtsySearch_Notebooks",
+    "desc": "Clock that converts the time of day into a color.",
+    "tools": [
+        "HTML",
+        "Sass",
+        "jQuery"
+    ]
+}, {
+    "name": "Reccy",
+    "type": "server",
+    "github": "https://github.com/psamp/reccy-api",
+    "desc": "A RESTful API for a social bookmarking service that lets users organize interesting links into recommendation lists.",
+    "notes": "Collaborated with Ruby on Rails engineers with previous experience as a pilot and Delta contractor.",
+    "tools": [
+        "Java",
+        "Stormpath user auth",
+        "MySQL",
+        "Jersey",
+        "Gradle"
+    ]
+}]
