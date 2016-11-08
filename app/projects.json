@@ -2,7 +2,8 @@
     "name": "Timelines",
     "type": "mobile",
     "github": "https://github.com/Synsthetics/iOS-Timelines-App",
-    "description": "Timelines helps busy people find free time to spend with their loved ones. Input your schedule, add someone as a friend, and then merge your schedule with theirs to find shared free time. A good 70% of this was pairprogrammed with two other iOS Devs. We handled timezones by talking to the server in GMT and ISO, and only converted to local time upon presentation to the user.",
+    "description": "Timelines helps busy people find free time to spend with their loved ones. Input your schedule, add someone as a friend, and then merge your schedule with theirs to find shared free time.",
+    "notes": "A good 70% of this was pairprogrammed with two other iOS Devs. We handled timezones by talking to the server in GMT and ISO, and only converted to local time upon presentation to the user.",
     "tools": [
         "Swift",
         "Foundation",
@@ -41,11 +42,12 @@
     "type": "web",
     "link": "http://psamp.github.io/EtsySearch_Notebooks/",
     "github": "https://github.com/psamp/EtsySearch_Notebooks",
-    "description": "Clock that converts the time of day into a color.",
+    "description": "Styling clone of Etsy.com",
     "tools": [
         "HTML",
         "Sass",
-        "jQuery"
+        "jQuery",
+        "JSON"
     ]
 }, {
     "name": "Reccy",

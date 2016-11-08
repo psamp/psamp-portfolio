@@ -1,0 +1,24 @@
+@import 'bourbon/_bourbon.scss';
+$cyan: #00DBEF;
+$purple: #C90AFF;
+
+.intro {
+    display: inline-block;
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    font-family: 'Shrikhand', cursive;
+    text-transform: lowercase;
+    font-size: 50px;
+    background: linear-gradient($cyan, $purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section {
+    line-height: 60px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}
